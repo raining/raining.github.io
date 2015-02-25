@@ -1,0 +1,25 @@
+# Site settings
+title: Front Blog
+email: rainbow.ekaterina@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Заметки для себя, настройки и интересные фишки, и все это касается фронтенда.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://raining.github.io" # the base hostname & protocol for your site
+twitter_username: KhurtinaEA
+github_username:  raining
+
+plugins:     ./_plugins
+
+# Build settings
+markdown: kramdown
+input: GFM
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+
+# Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+
+highlighter: pygments
